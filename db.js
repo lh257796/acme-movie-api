@@ -37,4 +37,4 @@ await Promise.all([
 ]);
 };
 
-module.exports = { syncAndSeed, models: { Actor, Movie, Role } };
+module.exports = { syncAndSeed, Actor, Movie, Role};
